@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>4CEA3ED84079A099BC07B6ACB0854996</ExecutionGuid>
+<CrashGUID>UECC-Windows-6952CA15493AEC494409258ABC750426_0002</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: ((Result) &gt;= 0)  [File:D:\build\++UE5\Sync\Engine\Plugins\Runtime\OpenXR\Source\OpenXRHMD\Private\OpenXRHMD.cpp] [Line: 2525] 
+OpenXR call failed with result XR_ERROR_TIME_INVALID
+Stack: 
+0x00007ff6d03f982e Naprock_JP.exe!FOpenXRHMD::LocateViews() []
+0x00007ff6d03ea6c5 Naprock_JP.exe!FOpenXRHMD::EnumerateViews() []
+0x00007ff6d03fc2a9 Naprock_JP.exe!FOpenXRHMD::OnBeginSimulation_GameThread() []
+0x00007ff6d03fe7fb Naprock_JP.exe!FOpenXRHMD::OnStartGameFrame() []
+0x00007ff6d7c6f41f Naprock_JP.exe!UWorld::Tick() []
+0x00007ff6d79b4ec7 Naprock_JP.exe!UGameEngine::Tick() []
+0x00007ff6d03a23cf Naprock_JP.exe!FEngineLoop::Tick() []
+0x00007ff6d03bb99e Naprock_JP.exe!GuardedMain() []
+0x00007ff6d03bba7a Naprock_JP.exe!GuardedMainWrapper() []
+0x00007ff6d03be9b6 Naprock_JP.exe!LaunchWindowsStartup() []
+0x00007ff6d03d0404 Naprock_JP.exe!WinMain() []
+0x00007ff6d9985efa Naprock_JP.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ffe324a7344 KERNEL32.DLL!UnknownFunction []
+0x00007ffe332026b1 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>340</ProcessId>
+<SecondsSinceStart>8</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Naprock_JP</GameName>
+<ExecutableName>Naprock_JP</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.1.1-23901901+++UE5+Release-5.1</EngineVersion>
+<CommandLine> Naprock_JP</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.1-CL-23901901</BuildVersion>
+<Symbols>**UE5*Release-5.1-CL-23901901-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/PiLabStudent/Desktop/naprock_270722/VR_Medical/Naprock_2023_kmitl/Game_Package/Windows/Naprock_JP/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/PiLabStudent/Desktop/naprock_270722/VR_Medical/Naprock_2023_kmitl/Game_Package/Windows/</RootDir>
+<MachineId>776371A5453E803E83CF6EB021F67054</MachineId>
+<LoginId>776371a5453e803e83cf6eb021f67054</LoginId>
+<EpicAccountId>2359a537469b417bb18db493321f9293</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>8</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>11th Gen Intel(R) Core(TM) i9-11900K @ 3.50GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3080</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.3448]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>68612116480</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>99493847040</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>64</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>43815657472</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>3794268160</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>730066944</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>738263040</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>2803613696</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>2804252672</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+KERNELBASE  0x00007ffe309c0000 + 2cf19           
+Unknown     0x0000000000000000 + 43518           
+Naprock_JP  0x00007ff6cf780000 + ddab0e0         
+</PCallStack>
+<PCallStackHash>D8248B4F0B0A6EA717D991BA0E03A18EC1A89919</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3080</RHI.AdapterName>
+<RHI.UserDriverVersion>536.23</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.3623</RHI.InternalDriverVersion>
+<RHI.DriverDate>6-8-2023</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2216</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>false</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
