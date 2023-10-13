@@ -1182,25 +1182,3 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 
 
 [2023.10.06-07.12.10:292][346]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2023.10.06-07.12.12:130][346]LogWindows: Could not start crash report client using ../../../Engine/Binaries/Win64/CrashReportClient-Win64-Debug.exe
-[2023.10.06-07.12.12:130][346]LogMemory: Platform Memory Stats for Windows
-[2023.10.06-07.12.12:130][346]LogMemory: Process Physical Memory: 570.77 MB used, 603.80 MB peak
-[2023.10.06-07.12.12:130][346]LogMemory: Process Virtual Memory: 2582.82 MB used, 2594.70 MB peak
-[2023.10.06-07.12.12:130][346]LogMemory: Physical Memory: 34479.93 MB used,  30953.69 MB free, 65433.61 MB total
-[2023.10.06-07.12.12:130][346]LogMemory: Virtual Memory: 157862.41 MB used,  19105.91 MB free, 176968.31 MB total
-[2023.10.06-07.12.12:130][346]Message dialog closed, result: Ok, title: The UE-Naprock_JP Game has crashed and will close, text: Assertion failed: InExtent.X [File:D:\build\++UE5\Sync\Engine\Source\Runtime\RenderCore\Public\RendererInterface.h] [Line: 106] 
-
-
-
-
-[2023.10.06-07.12.12:130][346]LogWindows: Error: === Critical error: ===
-[2023.10.06-07.12.12:130][346]LogWindows: Error: 
-[2023.10.06-07.12.12:130][346]LogWindows: Error: Assertion failed: InExtent.X [File:D:\build\++UE5\Sync\Engine\Source\Runtime\RenderCore\Public\RendererInterface.h] [Line: 106] 
-[2023.10.06-07.12.12:130][346]LogWindows: Error: 
-[2023.10.06-07.12.12:130][346]LogWindows: Error: 
-[2023.10.06-07.12.12:130][346]LogWindows: Error: 
-[2023.10.06-07.12.12:130][346]LogWindows: Error: [Callstack] 0x00007ff6d480300e Naprock_JP.exe!FVariableRateShadingImageManager::RenderShadingRateImage() []
-[2023.10.06-07.12.12:130][346]LogWindows: Error: [Callstack] 0x00007ff6dcc9f1c8 Naprock_JP.exe!TSS0<`template-parameter-2',IConsoleCommandExecutor::dularFeatureName,AVFName * const volatile,void,int, ?? &>() []
-[2023.10.06-07.12.12:130][346]LogWindows: Error: [Callstack] 0x0000000000004000 UnknownFunction []
-[2023.10.06-07.12.12:130][346]LogWindows: Error: [Callstack] 0x0000000000004000 UnknownFunction []
-[2023.10.06-07.12.12:130][346]LogWindows: Error: 

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>D1159CF94D5B631312EFACA639D90D0A</ExecutionGuid>
+<CrashGUID>UECC-Windows-DEDE0C39442770E4A07234862B7CCE4C_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Assertion failed: InExtent.X [File:D:\build\++UE5\Sync\Engine\Source\Runtime\RenderCore\Public\RendererInterface.h] [Line: 106] 
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>1160</ProcessId>
+<SecondsSinceStart>21</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Naprock_JP</GameName>
+<ExecutableName>Naprock_JP</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.1.1-23901901+++UE5+Release-5.1</EngineVersion>
+<CommandLine> Naprock_JP</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.1-CL-23901901</BuildVersion>
+<Symbols>**UE5*Release-5.1-CL-23901901-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/PiLabStudent/Desktop/naprock_270722/VR_Medical/Naprock_2023_kmitl/Game_Package/Windows/Naprock_JP/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/PiLabStudent/Desktop/naprock_270722/VR_Medical/Naprock_2023_kmitl/Game_Package/Windows/</RootDir>
+<MachineId>776371A5453E803E83CF6EB021F67054</MachineId>
+<LoginId>776371a5453e803e83cf6eb021f67054</LoginId>
+<EpicAccountId>2359a537469b417bb18db493321f9293</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>8</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>11th Gen Intel(R) Core(TM) i9-11900K @ 3.50GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3080</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.3448]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>68612116480</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>181208518656</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>64</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>32454778880</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>20034396160</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>597872640</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>633131008</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>2708492288</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>2720743424</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+Naprock_JP  0x00007ff6cede0000 + 5a2300e         
+Naprock_JP  0x00007ff6cede0000 + debf1c8         
+Unknown     0x0000000000000000 + 4000            
+Unknown     0x0000000000000000 + 4000            
+</PCallStack>
+<PCallStackHash>FAE2E02B7D8A53EDD1B1ACD97FBC0D06335C9353</PCallStackHash>
+<Threads><Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE               0x00007ff8e8110000 + 230ce           
+tbb                      0x0000000180000000 + 1cc557b170      
+Naprock_JP               0x00007ff6cede0000 + 3453b70         
+tbb                      0x0000000180000000 + 126a8e967e0     
+Naprock_JP               0x00007ff6cede0000 + 332dffc         
+tbb                      0x0000000180000000 + 12680000102     
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff800001aed8f0
+Unknown                  0x0000000000000000 + 48              
+Naprock_JP               0x00007ff6cede0000 + 131220001       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20116</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+tbb         0x0000000180000000 + 1cc8effaa0      
+Naprock_JP  0x00007ff6cede0000 + b41d260         
+tbb         0x0000000180000000 + 1cc8effaa0      
+Naprock_JP  0x00007ff6cede0000 + 69d9020         
+XINPUT1_3   0x0000000000400000 + ffbfffff        
+Unknown     0x0000000000000000 + 48              
+tbb         0x0000000180000000 + 7ff480000001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23396</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8436</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22640</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + b269070         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6932</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21340</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6420</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Naprock_JP  0x00007ff6cede0000 + b41d260         
+tbb         0x0000000180000000 + 1ccd3ffa70      
+tbb         0x0000000180000000 + 7ff480000000    
+XINPUT1_3   0x0000000000400000 + ffbfffff        
+Unknown     0x0000000000000000 + 48              
+tbb         0x0000000180000000 + 7ff480000001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2520</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+tbb         0x0000000180000000 + 1ccdf7f820      
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1040</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Naprock_JP  0x00007ff6cede0000 + b41d260         
+tbb         0x0000000180000000 + 1cceaff890      
+tbb         0x0000000180000000 + 7ff480000000    
+XINPUT1_3   0x0000000000400000 + ffbfffff        
+Unknown     0x0000000000000000 + 48              
+tbb         0x0000000180000000 + 7ff480000001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22576</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+tbb         0x0000000180000000 + 1ccf67f9a0      
+tbb         0x0000000180000000 + 1ffe7fffffff    
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16112</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+tbb         0x0000000180000000 + 1ffe7fffffff    
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1120</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+tbb         0x0000000180000000 + 1cd0d7f650      
+Naprock_JP  0x00007ff6cede0000 + b41d260         
+tbb         0x0000000180000000 + 1cd0d7f650      
+Naprock_JP  0x00007ff6cede0000 + 36faef0         
+XINPUT1_3   0x0000000000400000 + ffbfffff        
+Unknown     0x0000000000000000 + 48              
+tbb         0x0000000180000000 + 7ff480000001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23464</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18828</ThreadID>
+<ThreadName>Background Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + 1d884c0         
+Naprock_JP  0x00007ff6cede0000 + 3453b70         
+Unknown     0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20888</ThreadID>
+<ThreadName>Background Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20812</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14276</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19372</ThreadID>
+<ThreadName>Reserve Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7452</ThreadID>
+<ThreadName>Reserve Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20532</ThreadID>
+<ThreadName>Reserve Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20972</ThreadID>
+<ThreadName>Reserve Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18592</ThreadID>
+<ThreadName>Reserve Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21376</ThreadID>
+<ThreadName>Reserve Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6644</ThreadID>
+<ThreadName>Reserve Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15432</ThreadID>
+<ThreadName>Reserve Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7484</ThreadID>
+<ThreadName>Reserve Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19244</ThreadID>
+<ThreadName>Reserve Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13752</ThreadID>
+<ThreadName>Reserve Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13300</ThreadID>
+<ThreadName>Reserve Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+tbb         0x0000000180000000 + 1cdba1f5e0      
+Naprock_JP  0x00007ff6cede0000 + 33110d7         
+tbb         0x0000000180000000 + 126a57e7f80     
+tbb         0x0000000180000000 + 1cdba1f4f8      
+tbb         0x0000000180000000 + 126a9241f08     
+Unknown     0x0000000000000000 + 1               
+Unknown     0x0000000000000000 + 48              
+tbb         0x0000000180000000 + 7ff480000001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11204</ThreadID>
+<ThreadName>Reserve Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE               0x00007ff8e8110000 + 230ce           
+tbb                      0x0000000180000000 + 126aa443800     
+Naprock_JP               0x00007ff6cede0000 + 3453b70         
+tbb                      0x0000000180000000 + 126a902d300     
+Unknown                  0x0000000000000000 + 1               
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + 20e02501af0000  
+Naprock_JP               0x00007ff6cede0000 + 33325bb         
+Unknown                  0x0000000000000000 + 48              
+tbb                      0x0000000180000000 + 7ff480000001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13748</ThreadID>
+<ThreadName>Reserve Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9d4d4           
+KERNELBASE  0x00007ff8e8110000 + 4b4ee           
+tbb         0x0000000180000000 + 1cdd11f938      
+Naprock_JP  0x00007ff6cede0000 + 3443005         
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21828</ThreadID>
+<ThreadName>FAsyncWriter_Naprock_JP</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21868</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9d4d4           
+KERNELBASE  0x00007ff8e8110000 + 4b4ee           
+tbb         0x0000000180000000 + 1cde83f9f8      
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17524</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE               0x00007ff8e8110000 + 230ce           
+tbb                      0x0000000180000000 + 126a73eaf40     
+Naprock_JP               0x00007ff6cede0000 + 3453b70         
+tbb                      0x0000000180000000 + 126aa77a380     
+Naprock_JP               0x00007ff6cede0000 + dae9208         
+tbb                      0x0000000180000000 + 12680000102     
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff800001abf2c0
+Unknown                  0x0000000000000000 + 48              
+Unknown                  0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20732</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23420</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18444</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9496</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17088</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE               0x00007ff8e8110000 + 230ce           
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + 7fff800001af00ff
+tbb                      0x0000000180000000 + 126a6438dc0     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12548</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2344</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+Naprock_JP  0x00007ff6cede0000 + b82fc80         
+tbb         0x0000000180000000 + 1ccd3ff308      
+tbb         0x0000000180000000 + 126a59a00d0     
+tbb         0x0000000180000000 + 126a576a808     
+tbb         0x0000000180000000 + 126a759d190     
+Naprock_JP  0x00007ff6cede0000 + 774ba54         
+Unknown     0x0000000000000000 + 48              
+tbb         0x0000000180000000 + 12680000001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12456</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23280</ThreadID>
+<ThreadName>RHIInterruptThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+tbb         0x0000000180000000 + 1cea15f260      
+tbb         0x0000000180000000 + 127216488e8     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19100</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE               0x00007ff8e8110000 + 230ce           
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + 4b805c02230066  
+tbb                      0x0000000180000000 + 1ceacd4610      
+XINPUT1_3                0x0000000000400000 + 66fbdb9         
+tbb                      0x0000000180000000 + 1ceacdf7a0      
+Naprock_JP               0x00007ff6cede0000 + 0               
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff7fffddebba00
+Unknown                  0x0000000000000000 + 48              
+Unknown                  0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>16060</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9d4d4           
+KERNELBASE               0x00007ff8e8110000 + 4b4ee           
+tbb                      0x0000000180000000 + 1ceacff938      
+Naprock_JP               0x00007ff6cede0000 + 3453b70         
+tbb                      0x0000000180000000 + 126a8f56360     
+Naprock_JP               0x00007ff6cede0000 + dae9208         
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff800001ae15a0
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff800001aeffff
+Unknown                  0x0000000000000000 + 48              
+Unknown                  0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7464</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17364</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9d4d4           
+KERNELBASE               0x00007ff8e8110000 + 4b4ee           
+tbb                      0x0000000180000000 + 1cef21f9c8      
+Naprock_JP               0x00007ff6cede0000 + 3453b70         
+tbb                      0x0000000180000000 + 126b8396c10     
+Naprock_JP               0x00007ff6cede0000 + dae9208         
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff800001166980
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23512</ThreadID>
+<ThreadName>LiveLinkMessageBusDiscoveryManager</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE               0x00007ff8e8110000 + 230ce           
+tbb                      0x0000000180000000 + 126a9b90200     
+tbb                      0x0000000180000000 + 7fff00fe        
+tbb                      0x0000000180000000 + 126cb338820     
+Naprock_JP               0x00007ff6cede0000 + 3b2e671         
+tbb                      0x0000000180000000 + 12680000000     
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff6c7801af2710
+Unknown                  0x0000000000000000 + 48              
+tbb                      0x0000000180000000 + 7ff480000001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23020</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE               0x00007ff8e8110000 + 230ce           
+tbb                      0x0000000180000000 + 126d09218e0     
+Naprock_JP               0x00007ff6cede0000 + 3453b70         
+tbb                      0x0000000180000000 + 126b85acd20     
+Naprock_JP               0x00007ff6cede0000 + dae9208         
+tbb                      0x0000000180000000 + 12680000102     
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff80000188da60
+Unknown                  0x0000000000000000 + 48              
+Unknown                  0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14192</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ff8ea6b0000 + 9d4d4           
+KERNELBASE               0x00007ff8e8110000 + 4b4ee           
+tbb                      0x0000000180000000 + 1cf717f5b8      
+Naprock_JP               0x00007ff6cede0000 + 3453b70         
+tbb                      0x0000000180000000 + 126cebdc6a0     
+Naprock_JP               0x00007ff6cede0000 + dae9208         
+GFSDK_Aftermath_Lib.x64  0x00007ffffe510000 + ffff800001166980
+KERNELBASE               0x00007ff8e8110000 + 73590           
+Unknown                  0x0000000000000000 + 48              
+Unknown                  0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2868</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+tbb         0x0000000180000000 + 1cf7cff240      
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4104</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7800</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff8ea6b0000 + 9ced4           
+KERNELBASE  0x00007ff8e8110000 + 230ce           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15156</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3080</RHI.AdapterName>
+<RHI.UserDriverVersion>536.23</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.3623</RHI.InternalDriverVersion>
+<RHI.DriverDate>6-8-2023</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2216</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
